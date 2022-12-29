@@ -75,9 +75,9 @@ we can see from here the equation from part a) falls out nicely.
 ###**c)**### 
 for the geosynchronous orbits our period is 24 hours so changing that to seconds we get 86400 s. now we can use that period in the equation from part a) to get 35136 km
 
-for the 90 minutes its the same so our period is 5400 s and the altitude is 166 km 
+for the 90 minutes its the same so our period is 5400 s and the altitude is 279 km 
 
-for 45 minutes or 2700 s the altitude is -2252km wait what we have a negative altitude that can not be right? 
+for 45 minutes or 2700 s the altitude is -2181km wait what we have a negative altitude that can not be right? 
 
 it is not the correct altitude for Earth because kepler's laws are applied to point masses when near earths surface the altitude for a given period will be wrong but it does work well for large orbits like a geosynchronous orbit. 
 

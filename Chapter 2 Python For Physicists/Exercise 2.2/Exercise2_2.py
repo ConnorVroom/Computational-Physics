@@ -27,6 +27,12 @@ def main():
     T = Period_Input()
     Calculate_Altitude(T)
 
+    Calculate_Altitude(24*3600)
+
+    Calculate_Altitude(90*60)
+
+    Calculate_Altitude(45*60)
+
 main()
 
         
