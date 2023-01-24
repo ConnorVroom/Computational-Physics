@@ -1,11 +1,12 @@
 import numpy as np
 
 def Cartesian_Input():
-    x = input("Enter the x component of your point: ")
-    y = input("Enter the y component of your point: ")
-    if (x.isdigit() and y.isdigit()):
-        return float(x), float(y)
-    print("x and y must be numbers")
+    while True:
+        x = input("Enter the x component of your point: ")
+        y = input("Enter the y component of your point: ")
+        if (x.isdigit() and y.isdigit()):
+            return float(x), float(y)
+        print("x and y must be numbers")
     
 def Cartesian_To_Polar(x, y):
     r = np.sqrt(x ** 2 + y ** 2)
